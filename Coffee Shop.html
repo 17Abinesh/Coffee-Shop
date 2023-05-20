@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AH Coffee Shop</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- fa fa icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- BOx icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!-- style sheet connect link  -->
+    <link rel="stylesheet" href="Coffee Shop.css">
+     
+   
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- website icon -->
+    <link rel="website icon" 
+    type="jpg"  href="Coffee Logo 1.png" style="aspect-ratio: 3/2; object-fit: contain; mix-blend-mode: lighten;">
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="Coffee Logo 1.png" alt="">
+        </a>
+        
+        <nav class="navbar">
+         <a href="#home" >Home</a>
+         <a href="#about">About</a>
+         <a href="#menu">Menu</a>
+         <a href="#review">Review</a>
+         <a href="#contact">Contact</a>
+        </nav>
+
+
+        
+
+        <div class="icons">
+           
+           <!-- <div><input type="search" id="search-box" placeholder="search here..." class="bx bx-search-alt-2" > </div> -->
+           <div class="fas fa-search" id="search-btn"></div>
+           
+
+           <div class='bx bxs-cart-alt' type="button" id="cart-btn" data-bs-toggle="modal" data-bs-target="#myModal"></div>
+            
+          
+           <div class="bx bxs-bars" id="me nu-btn"></div>
+        </div>
+
+
+        
+
+         <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div> 
+
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+
+         <h3>Wlecome To <span> AH Coffee Shop </span><img src="Coffee Logo 1.png" alt=""></h3>
+        <h1>Dirnk the coffee and relax your mind</h1>
+        <p>
+            Our Coffee Shop motto is to serve the best coffee to every coustomer we have.
+        </p>
+ 
+        <button class="btn" type="submit">Order now</button>
+
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-img">
+                <div class="gallery">
+                <figure>
+                <img src="Arabica beans.png" alt="My image" caption >
+                <!-- <figcaption>Arabica Beans</figcaption> -->
+                <div class="desc">Arabica Beans</div>
+                </figure>
+
+                   
+                </div>    
+              </div>
+
+            <h2>Welcome to <span> AH Coffee Shop</span></h2>
+		<p>At AH Coffee Shop, we take pride in serving the best coffee in town. Our coffee is made from 100% Arabica beans, roasted to perfection to bring out the rich, full-bodied flavor that coffee lovers crave.</p>
+		<p>Whether you're in the mood for a hot latte, a refreshing iced coffee, or a rich espresso shot, we've got you covered. And if you're feeling hungry, be sure to try one of our delicious pastries or sandwiches.</p>
+		<p>Stop by today and experience the difference at AH Coffee Shop!</p>
+        </div>
+
+        <div class="gallery">
+            <figure>
+            <img src="Robusta beans 1.jpg" alt="Robusta Beans" caption style="width: 150px;" >
+            <div class="desc" style="font-size:x-large ;">Robusta Beans</div>
+            </figure>
+        </div>
+    </section>
+
+
+    <section class="menu" id="menu">
+        <div class="menu-content">
+
+         
+
+          <nav class="navbar navbar-expand-sm   navbar-dark">
+            <div class="container-fluid">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#hot_beverages">Hot Beverages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#cold_beverages">Cold Beverages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#breakfast">Breakfast</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#all_day">All Day</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#baked_goods">Baked Goods</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#desserts">Desserts</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <section class="hot_beverages" id="hot_beverages">
+
+            <h2>Hot Beverages</h2>
+            <p> Experience our range of coffee beverages made with 100% premium Arabica beans. 
+              Enjoy the classics or try Tim Hortons favourites -Double Double™ and French Vanilla.
+            </p>
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="card" >
+                        <img class="card-img-top" src="HotBeverages_01_Latte.png" alt="HotBeverages_01_Latte">
+                        <div class="card-body">
+                          <h4 class="card-title">Latte</h4>
+                          <p class="card-text"> &#8377 225</p>
+                           
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >
+                        <img class="card-img-top" src="HotBeverages_02_Cappuccino.png" alt="HotBeverages_02_Cappuccino">
+                        <div class="card-body">
+                          <h4 class="card-title">Cappuccino</h4>
+                          <p class="card-text"> &#8377 250 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >
+                        <img class="card-img-top" src="HotBeverages_03_Americano.png" alt="HotBeverages_03_Americano">
+                        <div class="card-body">
+                          <h4 class="card-title">Americano</h4>
+                          <p class="card-text"> &#8377 205 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >
+                        <img class="card-img-top" src="HotBeverages_04_CafeMocha.png" alt="HotBeverages_04_CafeMocha">
+                        <div class="card-body">
+                          <h4 class="card-title">CafeMocha</h4>
+                          <p class="card-text"> &#8377 260  </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >
+                        <img class="card-img-top" src="HotBeverages_05_FlatWhite.png" alt="HotBeverages_05_FlatWhite">
+                        <div class="card-body">
+                          <h4 class="card-title">FlatWhite</h4>
+                          <p class="card-text"> &#8377 295</p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >
+                        <img class="card-img-top" src="HotBeverages_06_CaramelMacchiato.png" alt="HotBeverages_06_CaramelMacchiato">
+                        <div class="card-body">
+                          <h4 class="card-title">CaramelMacchiato</h4>
+                          <p class="card-text"> &#8377 285</p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >   
+                        <img class="card-img-top" src="HotBeverages_07_Cortado.png" alt="HotBeverages_07_Cortado">
+                        <div class="card-body">
+                          <h4 class="card-title">Cortado</h4>
+                          <p class="card-text"> &#8377 270 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >   
+                        <img class="card-img-top" src="HotBeverages_08_Doppio.png" alt="HotBeverages_08_Doppio">
+                        <div class="card-body">
+                          <h4 class="card-title">Doppio</h4>
+                          <p class="card-text"> &#8377 110 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >   
+                        <img class="card-img-top" src="HotBeverages_09_FrenchVanilla.png" alt="HotBeverages_09_FrenchVanilla">
+                        <div class="card-body">
+                          <h4 class="card-title">FrenchVanilla</h4>
+                          <p class="card-text"> &#8377 200 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >   
+                        <img class="card-img-top" src="HotBeverages_10_FrenchVanillaLatte.png" alt="HotBeverages_10_FrenchVanillaLatte">
+                        <div class="card-body">
+                          <h4 class="card-title">FrenchVanillaLatte</h4>
+                          <p class="card-text"> &#8377 275 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >   
+                        <img class="card-img-top" src="HotBeverages_14_DoubleDoubleLatte.png" alt="HotBeverages_14_DoubleDoubleLatte">
+                        <div class="card-body">
+                          <h4 class="card-title">DoubleDoubleLatte</h4>
+                          <p class="card-text"> &#8377 120 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >   
+                        <img class="card-img-top" src="HotBeverages_15_ChocolateCappuccino.png" alt="HotBeverages_15_ChocolateCappuccino">
+                        <div class="card-body">
+                          <h4 class="card-title">ChocolateCappuccino</h4>
+                          <p class="card-text"> &#8377 300 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >   
+                        <img class="card-img-top" src="HotBeverages_16_HotChocolate.png" alt="HotBeverages_16_HotChocolate">
+                        <div class="card-body">
+                          <h4 class="card-title">HotChocolate</h4>
+                          <p class="card-text"> &#8377 260</p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="box">
+                    <div class="card" >   
+                        <img class="card-img-top" src="HotBeverages_17_Kumbakonam Degree coffee.png" alt="HotBeverages_17_Kumbakonam">
+                        <div class="card-body">
+                          <h4 class="card-title">Kumbakonam Degree coffee</h4>
+                          <p class="card-text"> &#8377 100 </p>
+                          <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+          </section>
+            <hr>
+         <section class="cold_beverages" id="cold_beverages">
+
+          <h2>Cold Beverages</h2>
+           <p> Looking for a beverage to keep you chilled? Try our indulgent Iced Capp™,
+           refreshing Cold Brew, Frozen French Vanilla & much more! </p>
+
+          <div class="box-container">
+
+            <div class="box">
+              <div class="card" >
+                    <img class="card-img-top" src="ColdBeverages_01_ColdCoffee.png" alt="ColdBeverages_01_ColdCoffee">
+                    <div class="card-body">
+                      <h4 class="card-title">ColdCoffee</h4>
+                      <p class="card-text"> &#8377 110 </p>
+                      <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+              <div class="card" >
+                  <img class="card-img-top" src="ColdBeverages_02_IcedLatte.png" alt="ColdBeverages_02_IcedLatte">
+                  <div class="card-body">
+                    <h4 class="card-title">IcedLatte</h4>
+                    <p class="card-text"> &#8377 275</p>
+                    <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                  </div>
+              </div>
+            </div>
+
+            <div class="box">
+             <div class="card" >
+                <img class="card-img-top" src="ColdBeverages_03_IcedAmericano.png" alt="ColdBeverages_03_IcedAmericano">
+                <div class="card-body">
+                  <h4 class="card-title">IcedAmericano</h4>
+                  <p class="card-text"> &#8377 255 </p>
+                  <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="card" >
+               <img class="card-img-top" src="ColdBeverages_04_IcedDoubleDouble.png" alt="ColdBeverages_04_IcedDoubleDouble">
+               <div class="card-body">
+                <h4 class="card-title">IcedDoubleDouble</h4>
+                <p class="card-text"> &#8377 300</p>
+                <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                </div>
+               </div>
+            </div>
+
+            <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_06_IcedCaramelMacchiato.png" alt="ColdBeverages_06_IcedCaramelMacchiato">
+                 <div class="card-body">
+                   <h4 class="card-title">IcedCaramelMacchiato</h4>
+                   <p class="card-text"> &#8377 335 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_07_FrozenFrenchVanilla.png" alt="ColdBeverages_07_FrozenFrenchVanilla">
+                 <div class="card-body">
+                   <h4 class="card-title">FrozenFrenchVanilla</h4>
+                   <p class="card-text"> &#8377 325 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_08_FrozenFrenchVanillaLatte.png" alt="ColdBeverages_03_IcedAmericano">
+                 <div class="card-body">
+                   <h4 class="card-title">IcedAmericano</h4>
+                   <p class="card-text"> &#8377 265</p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_09_OriginalIcedCapp.png" alt="ColdBeverages_09_OriginalIcedCapp">
+                 <div class="card-body">
+                   <h4 class="card-title">OriginalIcedCapp</h4>
+                   <p class="card-text"> &#8377 310 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_10_JavaChipIcedCapp.png" alt="ColdBeverages_10_JavaChipIcedCapp">
+                 <div class="card-body">
+                   <h4 class="card-title">JavaChipIcedCapp</h4>
+                   <p class="card-text"> &#8377 275 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_12_CaramelIcedCapp.png" alt="ColdBeverages_12_CaramelIcedCapp">
+                 <div class="card-body">
+                   <h4 class="card-title">CaramelIcedCapp</h4>
+                   <p class="card-text"> &#8377 325 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_13_VanillaIcedCapp.png" alt="ColdBeverages_13_VanillaIcedCapp">
+                 <div class="card-body">
+                   <h4 class="card-title">VanillaIcedCapp</h4>
+                   <p class="card-text"> &#8377 325 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_14_ChocolateTimShake.png" alt="ColdBeverages_14_ChocolateTimShake">
+                 <div class="card-body">
+                   <h4 class="card-title">Chocolate AH Shake</h4>
+                   <p class="card-text"> &#8377 200 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_18_ClassicColdBrew.png" alt="ColdBeverages_18_ClassicColdBrew">
+                 <div class="card-body">
+                   <h4 class="card-title">ClassicColdBrew</h4>
+                   <p class="card-text"> &#8377 325 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_19_VanillaColdBre.png" alt="ColdBeverages_19_VanillaColdBre">
+                 <div class="card-body">
+                   <h4 class="card-title">VanillaColdBre</h4>
+                   <p class="card-text"> &#8377 325 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="ColdBeverages_20_NitroColdBrew.png" alt="ColdBeverages_20_NitroColdBrew">
+                 <div class="card-body">
+                   <h4 class="card-title">NitroColdBrew</h4>
+                   <p class="card-text"> &#8377 345 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+          </div>
+         </section>
+         <hr>
+
+         <section class="breakfast" id="breakfast">
+
+         <h2>Breakfast</h2>
+
+          <div class="box-container">
+
+          <div class="box">
+            <div class="card" >
+               <img class="card-img-top" src="Breakfast_01_ScrambledEggsOnToast.png" alt="Breakfast_01_ScrambledEggsOnToast">
+               <div class="card-body">
+                 <h4 class="card-title">ScrambledEggsOnToast</h4>
+                 <p class="card-text"> &#8377 35 <span> &#8377 20.99</span> </p>
+                 <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+               </div>
+             </div>
+           </div>
+
+           <div class="box">
+            <div class="card" >
+               <img class="card-img-top" src="Breakfast_06_BreakfastPancakes.png" alt="Breakfast_06_BreakfastPancakes">
+               <div class="card-body ">
+                 <h4 class="card-title">BreakfastPancakes</h4>
+                 <p class="card-text"> &#8377 50  </p>
+                 <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+               </div>
+             </div>
+           </div>           
+
+           <div class="box">
+            <div class="card" >
+               <img class="card-img-top" src="Breakfast_01_ScrambledEggsOnToast.png" alt="Breakfast_01_ScrambledEggsOnToast">
+               <div class="card-body">
+                 <h4 class="card-title">ScrambledEggsOnToast</h4>
+                 <p class="card-text"> &#8377 40  </p>
+                 <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+               </div>
+             </div>
+           </div>
+
+           
+          </div>
+          <hr>
+         </section>
+
+         <section class="all_day" id="all_day">
+
+           <h2>All Day Snakcs</h2>
+            <p></p>
+
+
+          <div class="box-container">
+
+            <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_18_PaneerTikkaWrap.png" alt="AllDay_18_PaneerTikkaWrap">
+                 <div class="card-body">
+                   <h4 class="card-title">PaneerTikkaWrap</h4>
+                   <p class="card-text"> &#8377 80 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_20_PitaBreadWithHummus.png" alt="AllDay_20_PitaBreadWithHummus">
+                 <div class="card-body">
+                   <h4 class="card-title">PitaBreadWithHummus</h4>
+                   <p class="card-text"> &#8377 60  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_24_SmokyBBQPaneerPiadina.png" alt="AllDay_24_SmokyBBQPaneerPiadina">
+                 <div class="card-body">
+                   <h4 class="card-title">SmokyBBQPaneerPiadina</h4>
+                   <p class="card-text"> &#8377 60 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_25_SmokyBBQChickenPiadina.png" alt="AllDay_25_SmokyBBQChickenPiadina">
+                 <div class="card-body">
+                   <h4 class="card-title">SmokyBBQChickenPiadina</h4>
+                   <p class="card-text"> &#8377 70  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_26_Samonsa.png" alt="AllDay_26_Samonsa">
+                 <div class="card-body">
+                   <h4 class="card-title">Samonsa</h4>
+                   <p class="card-text"> &#8377 20  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_27_Onien bhaji.png" alt="AllDay_27_onien bhaji">
+                 <div class="card-body">
+                   <h4 class="card-title">Onien Bhaji</h4>
+                   <p class="card-text"> &#8377 20 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_28_mixture.png" alt="AllDay_28_mixture">
+                 <div class="card-body">
+                   <h4 class="card-title">Mixture</h4>
+                   <p class="card-text"> &#8377 50  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_29_Kai Rice murukku.png" alt="AllDay_29_Kai Rice Muruku">
+                 <div class="card-body">
+                   <h4 class="card-title">Rice Muruku</h4>
+                   <p class="card-text"> &#8377 10  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_31_HandMurukku2.png" alt="AllDay_31_HandMurukku2">
+                 <div class="card-body">
+                   <h4 class="card-title">Kai Muruku</h4>
+                   <p class="card-text"> &#8377 15 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_32Manapparai Muruku.png" alt="AllDay_32Manapparai">
+                 <div class="card-body">
+                   <h4 class="card-title">Manapparai Muruku</h4>
+                   <p class="card-text"> &#8377 20 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_33.Rice Vada.png" alt="AllDay_33.Rice Vada">
+                 <div class="card-body">
+                   <h4 class="card-title">Rice Vada</h4>
+                   <p class="card-text"> &#8377 20  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+             
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_34_Vad  Masala.png" alt="AllDay_34_Vad Masala">
+                 <div class="card-body">
+                   <h4 class="card-title">Masala Vada</h4>
+                   <p class="card-text"> &#8377 20  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_35_Banana Baji.png" alt="AllDay_35_Banana Baji">
+                 <div class="card-body">
+                   <h4 class="card-title">Banana Bhaji</h4>
+                   <p class="card-text"> &#8377 20 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_36_ Mirchi-Bajji.png" alt="AllDay_36_ Mirchi-Bajji">
+                 <div class="card-body">
+                   <h4 class="card-title">Mirchi Bajji</h4>
+                   <p class="card-text"> &#8377 20  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="AllDay_37_Thattai.png" alt="AllDay_37_Thattai">
+                 <div class="card-body">
+                   <h4 class="card-title">Thattai</h4>
+                   <p class="card-text"> &#8377 15  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+
+          </div>
+
+         </section>
+
+
+         <section class="baked_goods" id="baked_goods">
+
+          <h2>Baked Goods</h2>
+ 
+           <div class="box-container">
+
+            <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="BakedGoods_01_ButterCroissant.png" alt="BakedGoods_01_ButterCroissant">
+                 <div class="card-body">
+                   <h4 class="card-title">ButterCroissant</h4>
+                   <p class="card-text"> &#8377 50  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="BakedGoods_04_Oatmeal_RaisinCookie.png" alt="BakedGoods_04_Oatmeal_RaisinCookie">
+                 <div class="card-body">
+                   <h4 class="card-title">Oatmeal RaisinCookie</h4>
+                   <p class="card-text"> &#8377 10  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="BakedGoods_05_TripleChocolateCookie.png" alt="BakedGoods_05_TripleChocolateCookie">
+                 <div class="card-body">
+                   <h4 class="card-title">TripleChocolateCookie</h4>
+                   <p class="card-text"> &#8377 15  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+           </div>
+         </section>
+
+
+         <section class="desserts" id="desserts">
+
+         <h2>Desserts</h2>
+ 
+           <div class="box-container">
+
+            <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_01_Gulab-jamun.png" alt="Dessert_01_Gulab-jamun">
+                 <div class="card-body">
+                   <h4 class="card-title">Gulab Jamun</h4>
+                   <p class="card-text"> &#8377 15  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_02_Myosor pakk.png" alt="Dessert_02_Myosor pakk">
+                 <div class="card-body">
+                   <h4 class="card-title">Myosor Pakk</h4>
+                   <p class="card-text"> &#8377 15  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_03_LotusBiscoffCheesecakeSlice.png" alt="Dessert_03_LotusBiscoffCheesecakeSlice">
+                 <div class="card-body">
+                   <h4 class="card-title">Lotus Biscoff CheesecakeSlice</h4>
+                   <p class="card-text"> &#8377 30  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_04_Red-Rice-Sweet-Paniyaram.png" alt="Dessert_04_Red-Rice-Sweet-Paniyaram">
+                 <div class="card-body">
+                   <h4 class="card-title">Red Rice Sweet Paniyaram</h4>
+                   <p class="card-text"> &#8377 30 </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_05_CarrotCakeSlice.png" alt="Dessert_05_CarrotCakeSlice">
+                 <div class="card-body">
+                   <h4 class="card-title">Carrot CakeSlice</h4>
+                   <p class="card-text"> &#8377 30  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_06_BananaWalnutCakeSlice.png" alt="Dessert_06_BananaWalnutCakeSlice">
+                 <div class="card-body">
+                   <h4 class="card-title">Banana Walnut CakeSlice</h4>
+                   <p class="card-text"> &#8377 30  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_07_ChocolateBrownie.png" alt="Dessert_07_ChocolateBrownie">
+                 <div class="card-body">
+                   <h4 class="card-title">Chocolate Brownie</h4>
+                   <p class="card-text"> &#8377 50  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_08_motichoor-laddu.png" alt="Dessert_08_motichoor-laddu">
+                 <div class="card-body">
+                   <h4 class="card-title">Motichoor Laddu</h4>
+                   <p class="card-text"> &#8377 20  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+
+             <div class="box">
+              <div class="card" >
+                 <img class="card-img-top" src="Dessert_09_Jalebi.png" alt="Dessert_09_Jalebi">
+                 <div class="card-body">
+                   <h4 class="card-title">Jalebi</h4>
+                   <p class="card-text"> &#8377 20  </p>
+                   <a href="#mymodal" class="btn btn-primary coffee-item-button" type="button">Add to cart</a>
+                 </div>
+               </div>
+             </div>
+            
+           </div>
+         </section> 
+
+
+
+
+
+           <!--  Modal -->
+           <div class="modal" id="myModal">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">Cart</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal Body -->
+
+                <div class="modal-body">
+                  <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">&#8377 0</span>
+                </div>
+
+                </div>
+
+               <!--  Modal Footer -->
+               <div class="modal-footer">
+                <button class="btn btn-success btn-buy" type="button">BUY</button>
+                  
+               </div>
+
+              </div>
+            </div>
+          </div>
+
+          </div>
+          </section>
+
+
+          <section class="review" id="review">
+            <h1 class="heading"> Customer's <span>review</span>  </h1>
+
+            <div class="box-container">
+
+              <div class="box">
+                  <img src="luffy.jpg" alt="luffy" class="quote" width="150px">
+                  <p>The latte art here is amazing! 
+                    And the pastries are delicious too.</p>
+                  <img src="" alt="" class="user">
+                  <h3>Abinesh</h3>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+              </div>
+
+              <div class="box">
+                <img src="ayanokoji.jpg" alt="" class="quote" width="160px">
+                <p>I've been to many coffee shops, but this one is my favorite. 
+                  The atmosphere is cozy and relaxing, and the coffee is top-notch.</p>
+                <img src="" alt="" class="user">
+                <h3>Saravana Pandi</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box"> 
+              <img src="naruto.jpg" alt="" class="quote" width="150px" height="140px">
+              <p>Just had the best cappuccino of my life! 
+                The baristas here really know what they're doing.</p>
+              <img src="" alt="" class="user">
+              <h3>Subarmanien</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+              </div>
+          </div>
+
+            </div>           
+          </section>
+
+          <section class="contact" id="contact">
+            <h1 class="heading"> <span>Contact</span>  us</h1>
+
+            <div class="row">
+              
+
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d62209.89112465752!2d80.1019831023256!3d12.9642878707874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scoffee%20shop%20in%20Madipakkam%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1684509434451!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> 
+                </iframe>
+                
+         
+                <form action="">
+                  <h3>Get in Thouch</h3>
+                  <div class="inputbox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Name" name="" id="user">
+                  </div>
+                  <div class="inputbox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="E-Mail" name="email" id="email">
+                  </div>
+                  <div class="inputbox">
+                    <span class="fas fa-phone"></span>
+                    <input type="tel" placeholder="Phone Number" name="phone_number" id="phone_number">
+                  </div>
+                  
+                  <input type="submit" class="btn" value="contact_now">
+                
+                </form>
+
+            </div>
+          </section>
+
+          <section class="footer">
+
+            <div class="share">
+              <a href="#" class="bx bxl-facebook"></a>
+              <a href="#" class="bx bxl-twitter"></a>
+              <a href="#" class="bx bxl-instagram"></a>
+              <a href="#" class="bx bxl-linkedin"></a>
+              <a href="#" class="bx bxl-pinterest"></a>
+            </div>  
+
+            <div class="links">
+              <a href="#home" >Home</a>
+              <a href="#about">About</a>
+              <a href="#menu">Menu</a>
+              <a href="#review">Review</a>
+              <a href="#contact">Contact</a>
+            </div>
+
+            <div class="credit">Created by <span>AH</span> | all rights reserved</div>
+          </section>
+
+    <script src="Coffee Shop.js"></script>
+</body>
+</html>

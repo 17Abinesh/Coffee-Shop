@@ -1,0 +1,130 @@
+
+  /* Navabar */
+
+  /* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #f8f3f3;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+ .mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+} 
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.nav-link 
+{
+  color: white;
+  
+}
+.nav-link:hover
+{
+  color: crimson;
+  
+}
+
+.fa:hover
+{
+ color: darkcyan;
+}
+.fa:visited
+{
+  color: saddlebrown;
+}
+body
+{
+  background-image: url('https://wallpapercave.com/wp/wp5310187.jpg'); 
+  background-size: cover;
+}
+
+ /*  card */
+ .card {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+}
+
+.card-image {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 60%;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+.space
+{
+  padding: 15px 10px;
+}
+.gap
+{
+  padding: 15px 50px;
+}
+.align
+{
+  display: flex;
+  align-items: centr;
+  justify-content: left;
+  margin: 30px 10px;
+  
+}
